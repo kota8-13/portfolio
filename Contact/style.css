@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0 ;
+  list-style: none;
+  text-decoration: none;
+}
+
+#wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+    font-family:  "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+}
+
+header {
+  background: linear-gradient(130deg, rgb(22, 192, 237), rgb(150, 131, 206));
+  color: #FFF;
+  padding: 20px;
+}
+
+.main-menu {
+  background: linear-gradient(130deg, rgb(22, 192, 237), rgb(150, 131, 206));
+}
+
+.main-menu ul li {
+  text-align: center;
+}
+
+.main-menu ul li a {
+  color: #FFF;
+  display: block;
+  padding: 10px 20px;
+}
+
+.main-menu ul li a:hover {
+  background: #222;
+}
+
+section {
+  background: #EEE;
+  flex: 3;
+  padding: 20px;
+}
+
+article {
+  background: #FFF;
+  padding: 20px;
+  margin-bottom: 20px;  
+}
+
+aside {
+  background: #DDD;
+  flex: 1;
+}
+
+footer {
+  background: linear-gradient(130deg, rgb(22, 192, 237), rgb(150, 131, 206));
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+}
+@media all and (min-width: 600px) { 
+  
+  
+  
+  #wrap { 
+  
+  
+  
+} 
+
+
+
+.main-menu ul { 
+  
+  display: flex; 
+  
+} 
+
+
+
+.main-menu ul li { 
+  
+  text-align: left; 
+  
+} 
+
+
+
+main { 
+  
+  display: flex; 
+  
+} 
+
+
+
+.sub-menu ul li { 
+  
+  text-align: left; 
+  
+} 
+
+
+
+} 
+
+
+
+@media all and (max-width: 1025px) { 
+  
+  #wrap { 
+  
+  max-width: 1280px; 
+  
+} 
+
+
+
+} 
